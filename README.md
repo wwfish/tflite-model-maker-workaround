@@ -11,7 +11,7 @@ This Colab workbook loads a Conda environment into Google Colab with Python 3.9 
 The working demo is based upon the Android Figurine training example from here:
 https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb
 
-Edit this process/train.py script as needed for your own training requirements/dataset.
+Edit train.py script as needed for your own training requirements/dataset.
 
 ## Detailed Post
 The process of how to do this is outlined in this post:
@@ -20,8 +20,8 @@ https://discuss.tensorflow.org/t/running-tflite-model-maker-in-google-colab-june
 
 ## Getting Started
 
-1. [Edit/Build a train.py](train.py) config file to suit your dataset and your training specifications.
-2. [Run the colab workbook](Tflite_Model_Maker_Python_3_9.ipynb) to install tflite-model-maker and run the training file.
+1. [Edit/Build a train.py](train.py) config file to suit your dataset and your training specifications download it to use in your Colab workbook.
+2. [Run the colab workbook](Tflite_Model_Maker_Python_3_9.ipynb) to install tflite-model-maker and run the training file (remember to upload your own train.py file to Colab).
 
 ## On Going
 
