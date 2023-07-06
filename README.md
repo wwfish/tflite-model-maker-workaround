@@ -4,12 +4,12 @@ Process for training Tflite Model Maker (EfficientDet) in Google Colab in June/J
 ## Background
 Google Colab has updated to Python 3.10 which has made the Tflite Model Maker API stop working/load on an infinite loop.
 
-The  Colab workbook loads a Conda environment into Google Colab with Python 3.9 and allows for the Tflite Model Maker to be installed and trained.
+This Colab workbook loads a Conda environment into Google Colab with Python 3.9 and allows for the Tflite Model Maker to be installed and trained.
 
 The working demo is based upon the Android Figurine training example from here:
 https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb
 
-Edit this process/train.py script as needed for your own requirements.
+Edit this process/train.py script as needed for your own training requirements/dataset.
 
 ## Detailed Post
 The process of how to do this is outlined in this post:
