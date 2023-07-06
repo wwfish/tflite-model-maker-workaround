@@ -11,7 +11,7 @@ https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/
 
 Edit this process/train.py script as needed for your own requirements.
 
-## Detailed post of how it came together
+## Detailed Post
 The process of how to do this is outlined in this post:
 
 https://discuss.tensorflow.org/t/running-tflite-model-maker-in-google-colab-june-july-2023/18049
