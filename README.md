@@ -4,7 +4,7 @@
 Process for training Tflite Model Maker (EfficientDet) in Google Colab in June/July 2023.
 
 ## Background
-Google Colab has updated to Python 3.10 which has made the Tflite Model Maker API stop working/load on an infinite loop.
+Google Colab has updated to Python 3.10 which has made the Tflite Model Maker API stop working/load on an [infinite loop.](https://discuss.tensorflow.org/t/issue-in-installing-tflite-model-maker-in-google-colab/16682/29)
 
 This Colab workbook loads a Conda environment into Google Colab with Python 3.9 and allows for the Tflite Model Maker to be installed and trained.
 
@@ -20,9 +20,9 @@ https://discuss.tensorflow.org/t/running-tflite-model-maker-in-google-colab-june
 
 ## Getting Started
 
-1. [Edit/Build a train.py](train.py) config file to suit your dataset and your training specifications download it to use in your Colab workbook.
-2. [Run the colab workbook](Tflite_Model_Maker_Python_3_9.ipynb) to install tflite-model-maker and run the training file (remember to upload your own train.py file to Colab).
+1. [Edit/Build a train.py](train.py) config file to suit your dataset and your training specifications - download it to use in your own Colab workbook.
+2. [Run the Colab workbook](Tflite_Model_Maker_Python_3_9.ipynb) to install tflite-model-maker and run the training file (remember to upload your own train.py file to Colab).
 
 ## On Going
 
-Tensorflow team has pointed out that they are making updates to tflite-model-maker to work with Python 3.10 before they shift over to using Mediapipe as the go to training environment for tflite models.
+Tensorflow team has pointed out that [they are making updates to tflite-model-maker to work with Python 3.10](https://discuss.tensorflow.org/t/future-of-tflite-model-maker-and-mediapipe-model-maker/17375/7?u=wwfisher) before they shift over to using Mediapipe as the go to training environment for tflite models.
