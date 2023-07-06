@@ -1,5 +1,6 @@
 # Tflite Model Maker Workaround 2023
 Process for training Tflite Model Maker (EfficientDet) in Google Colab in June/July 2023.
+[![Colab Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wwfish/tflite-model-maker/blob/main/Tflite_Model_Maker_Python_3_9.ipynb)
 
 ## Background
 Google Colab has updated to Python 3.10 which has made the Tflite Model Maker API stop working/load on an infinite loop.
