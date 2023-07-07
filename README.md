@@ -112,11 +112,11 @@ for label, metric_value in tflite_eval_result.items():
 
 ## Running the Colab Workbook
 
-In this colab workbook you will get:
+In this Colab workbook you will get:
 - a .tflite file trained
 - COCO metrics for unquantized model
 - COCO metrics for quantized model
-- Training checkpoints data in checkpoitns folder
+- Training checkpoints data in checkpoints folder
 
 *There are a few steps that require you to type Y to proceed with installation. So run one cell at a time and monitor until training begins.*
 
