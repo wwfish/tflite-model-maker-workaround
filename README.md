@@ -1,7 +1,9 @@
 # Tflite Model Maker Workaround 2023
 [![Colab Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wwfish/tflite-model-maker/blob/main/Tflite_Model_Maker_Python_3_9.ipynb)
 
-Process for training Tflite Model Maker (EfficientDet) in Google Colab in June/July 2023. This example is based upon the Android Figurine Colab workbook published [here.](https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb)
+Process for training Tflite Model Maker (EfficientDet) in Google Colab in June/July 2023 with tflite-model-maker not currently being compatible with current version of Colab. This example is based upon the Android Figurine Colab workbook published [here.](https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb)
+
+This code is based off the work of [@tomkuzma](https://github.com/tomkuzma) and his work in the comment thread [here.](https://github.com/tensorflow/tensorflow/issues/60431#issuecomment-1574781146)
 
 ## Background
 Google Colab has updated to Python 3.10 which has made the Tflite Model Maker API stop working/load on an [infinite loop.](https://discuss.tensorflow.org/t/issue-in-installing-tflite-model-maker-in-google-colab/16682/29)
@@ -119,6 +121,8 @@ In this Colab workbook you will get:
 - Training checkpoints data in checkpoints folder
 
 *There are a few steps that require you to type Y to proceed with installation. So run one cell at a time and monitor until training begins.*
+
+**Because of the way Google Colab works you need to activate your conda environment with the `%%shell` command everytime you want to run any command in the environment you've installed (Python 3.9). If you don't it will revert back to the default Colab environment (Python 3.10).**
 
 1. Open New Workbook in Colab
 
